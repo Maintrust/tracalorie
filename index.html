@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Tracalorie Project</title>
+  </head>
+  <body>
+    <div class="header bg-blue">
+      <div class="header-content">
+        <h3 class="white">Tracalorie</h3>
+        <button class="btn bg-lightblue" id="clear">Clear All</button>
+      </div>
+    </div>
+    <main>
+      <div class="box">
+        <h2>Add Meal / Food item</h2>
+        <form action="#">
+          <div class="inputs-wrapper">
+            <div class="input-container">
+              <label for="item">Meal</label>
+              <input type="text" name="item" id="item" placeholder="Add Item" />
+            </div>
+            <div class="input-container">
+              <label for="calories">Calories</label>
+              <input
+                type="number"
+                name="calories"
+                id="calories"
+                placeholder="Add Calories"
+              />
+            </div>
+          </div>
+          <div class="btn-container">
+            <button type="submit" class="btn bg-darkblue" id="add">
+              Add Meal
+            </button>
+            <button type="submit" class="btn bg-orange" id="update">
+              Update Meal
+            </button>
+            <button type="button" class="btn bg-red" id="delete">
+              Delete Meal
+            </button>
+            <button type="button" class="btn bg-gray" id="back">Back</button>
+          </div>
+        </form>
+      </div>
+      <h1 id="totalCal">Total Calories:</h1>
+      <div class="meals-wrapper" id="meals-wrapper">
+        <!-- <div class="meal">
+          <p><strong>Steak Dinner: </strong><i>900 Calories</i></p>
+          <button class="bg-blue btn-edit">Edit</button>
+        </div>
+        <div class="meal">
+          <p><strong>Steak Dinner: </strong><i>900 Calories</i></p>
+          <button class="bg-blue btn-edit">Edit</button>
+        </div>
+        <div class="meal">
+          <p><strong>Steak Dinner: </strong><i>900 Calories</i></p>
+          <button class="bg-blue btn-edit">Edit</button>
+        </div> -->
+      </div>
+    </main>
+    <script src="js/app.js"></script>
+  </body>
+</html>
