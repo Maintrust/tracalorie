@@ -13,9 +13,11 @@ $bg-orange: #ff9f00;
 $bg-red: #ff3020;
 $bg-gray: #aaa8aa;
 $bg-green: #43c049;
+$bg-purple: #b560dd;
+$bg-darkpurple: #971ab6;
 $font-main-color: #3a3a3a;
 $white-color: #fff;
-$box-shadow: 1px 1px 2px #999999;
+$box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.3);
 $border-radius: 2px;
 $width: 80%;
 $max-width: 1000px;
@@ -73,6 +75,12 @@ $meal-padding: 10px 20px;
 }
 .bg-gray {
   background-color: $bg-gray;
+}
+.bg-purple {
+  background-color: $bg-purple;
+}
+.bg-darkpurple {
+  background-color: $bg-darkpurple;
 }
 
 %content-wrapper {

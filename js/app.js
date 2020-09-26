@@ -141,7 +141,7 @@ const UICtrl = (function () {
       items.forEach(function (item) {
         html += `<div class="meal" id="item-${item.id}">
         <p><strong>${item.name}: </strong><i>${item.calories} Calories</i></p>
-        <button class="bg-blue btn-edit">Edit</button>
+        <button class="bg-darkpurple btn-edit">Edit</button>
       </div>`;
       });
 
